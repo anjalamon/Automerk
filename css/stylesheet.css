@@ -1,0 +1,175 @@
+/*algemeen*/
+
+body {
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-image: url("../images/toyota-banner.png");
+    background-size: contain;
+    height: 100%;
+    opacity: 0.5;
+}
+
+h2, h3, p {
+    margin: 1rem 1rem 1rem 3rem;
+    color: #e50000;
+}
+
+/*nav en banner*/
+
+.garagetitel {
+    opacity: 0;
+}
+
+#navigation {
+    height: 4rem;
+    width: 100%;
+    background-color: #f0f0f0;
+    border: 1px solid #d2d4d6;
+}
+
+#navigation ul {
+    padding-left: 3rem;
+    width: 100%;
+
+}
+
+#navigation li {
+    float: left;
+    list-style-type: none;
+    text-align: center;
+}
+
+#navigation a:link, #navigation a:visited {
+    text-decoration: none;
+    color: #202020;
+    display: block;
+    padding: 1.5rem;
+}
+
+
+#navigation a:hover {
+    display: block;
+    background-color: #e50000;
+    color: white;
+}
+
+.active {
+    background-color: #e50000;
+    color: white;
+    display: block;
+    padding: 1.5rem;
+}
+
+#logoNavi {
+    max-height: 3rem;
+    max-width: 22rem;
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+    float: right;
+    display: block;
+}
+
+/*indexpagina*/
+
+section {
+    clear: both;
+}
+
+.paginatitel {
+    text-decoration: none;
+    color: #e50000;
+}
+
+#voorstelling li {
+    list-style-type: none;
+    margin: 1.5rem 3rem 1.5rem 3rem;
+    padding: 0.5rem;
+    text-align: center;
+    border: 3px solid #e50000;
+    border-radius: 0.5rem;
+    background-color: #f0f0f0;
+    font-size: 1.2em;
+}
+
+#voorstelling p {
+    margin: 0 3rem 0 3rem;
+    padding: 0.5rem;
+    background-color: #f0f0f0;
+    color: #e50000;
+}
+
+#liggingVer, #liggingDichtbij{
+    margin-left: 3rem;
+    padding: 1rem;
+    border: 2px solid #e50000;
+    width: 40%;
+    height: 40%
+}
+
+
+/*afspraakpagina*/
+
+fieldset {
+    border: 1px solid #e50000;
+    margin: 10px 40px 10px 42px;
+    padding: 10px;
+    width: 60%;
+}
+
+label {
+    color: #e50000;
+    display: inline-block;
+    width: 9em;
+}
+
+input, option, textarea, select, legend {
+    color: #202020;
+}
+
+::placeholder {
+    color: #d2d4d6;
+    font-size: 0.9em;
+    padding: 0.1em;
+}
+
+input[type=submit]{
+    margin-left: 42px;
+    font-weight: bold;
+    color: #e50000;
+    font-size: 2em;
+}
+
+input[type=reset] {
+    margin-left: 20px;
+    color: #e50000;
+
+}
+
+/*dienstenpagina*/
+
+
+table, th, td {
+    border: 1px solid #d2d4d6;
+    margin: 10px 40px 10px 42px;
+    padding: 10px;
+    color: #202020;
+    vertical-align: middle;
+    text-align: center;
+}
+
+th {
+    background-color: #e50000;
+    color: white;
+    font-weight: bold;
+}
+
+/*footer*/
+
+footer {
+    clear: both;
+    padding: 20px 0 10px 40px;
+    color: #202020;
+}
